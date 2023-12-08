@@ -1,0 +1,46 @@
+/* CSS Document */
+
+html {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background-color: #B82326;
+}
+
+header {
+	text-align: center;
+	font-size: 2em;
+	color: #fff;
+}
+
+.container {
+	display: grid;
+	grid-template-areas:
+		"left center right";
+	grid-gap: 2%;
+	width: 100%;
+	background-color: #EDEDED;
+	margin-top: 20em;
+	padding: .5em;
+}
+
+.nav {
+	background-color: #1C6134;
+	grid-area: left;
+	padding: 1em;
+}
+
+.main {	
+	background-color: #fff;
+	grid-area: center;
+	padding: 1em;
+}
+
+.sidebar {
+	background-color: #E7FB82;
+	grid-area: right;
+	padding: 1em;
+}
+
+footer {
+	text-align: center;
+	color: #fff;
+}
